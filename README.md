@@ -1,10 +1,10 @@
 # RetroFinder
 A tool
 
-Dependencies
+#Dependencies
 
-Installation
+#Installation
 
-bin
+#bin
 
-Usage
+#Usage
