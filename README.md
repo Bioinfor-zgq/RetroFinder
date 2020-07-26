@@ -28,8 +28,7 @@ There is number of additional dependencies not provided by RetroFinder authors. 
 The input of Retrofinder are only two files: genome sequences file (fasta) and corresponding annotation file (gff).
 
 **Usage**: RetroFinder  
-<p>positional arguments:  
-  <br>
+<p>positional arguments:
 Genome.fasta　　　　　　　　　- Fasta file with the reference genome sequences
 Reference.gff　　　　　　　　&nbsp- Gff file with the reference genome
 Output_dir　　　　　　　　　　- Path to the directory where all intermediate and final results will be stored
