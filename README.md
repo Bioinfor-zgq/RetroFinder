@@ -42,7 +42,7 @@ The input of Retrofinder are only two files: genome sequences file (fasta) and c
   <br>
 　-h, --help　　　　　　　　　　　- show this help message and exit
   <br>
-　--FASTA [FASTA]　　　　　　　　- Path of FASTA
+　--FASTA [FASTA]　　　　　　　　　-Path of FASTA
   <br>
 　--alignment_tool {LAST,tblastn} [{LAST,tblastn} ...]
   <br>
