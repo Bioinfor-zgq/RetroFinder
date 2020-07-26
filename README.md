@@ -46,7 +46,7 @@ The input of Retrofinder are only two files: genome sequences file (fasta) and c
   <br>
 　--alignment_tool {LAST,tblastn} [{LAST,tblastn} ...]
   <br>
-　　　　　　　　　　　　　　　　　- Choose LAST or tblastn to align proteins with genome sequences. ['LAST']
+　　　　　　　　　　　　　　　　- Choose LAST or tblastn to align proteins with genome sequences. ['LAST']
   <br>
 　--thread [int]　　　　　　　　- Number of threads to be used [1]
   <br>
