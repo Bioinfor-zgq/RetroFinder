@@ -40,7 +40,7 @@ The input of Retrofinder are only two files: genome sequences file (fasta) and c
 
 <p>optional arguments:
   <br>
-　-h, --help　　　　　　　　　　- show this help message and exit
+　-h, --help　　　　　　　　　　　- show this help message and exit
   <br>
 　--FASTA [FASTA]       - Path of FASTA
   <br>
