@@ -38,20 +38,37 @@ The input of Retrofinder are only two files: genome sequences file (fasta) and c
   <br>
 　Tools_dir　　　　　　　　　　 　- Path to the tools which are used</p>
 
-optional arguments:  
-　-h, --help            show this help message and exit  
-　--FASTA [FASTA]       - Path of FASTA  
-　--alignment_tool {LAST,tblastn} [{LAST,tblastn} ...]  
-  　　　　　　　　　　　　- Choose LAST or tblastn to align proteins with genome sequences. ['LAST']  
-　--thread [int]        - Number of threads to be used [1]  
-　--exonerate [EXONERATE] - Path of exonerate  
-　--identity [int]      - Rate of identity between retrocopy and parent gene [50]  
-　--coverage_rate [int] - Rate of coverage between retrocopy and parent gene [50]  
-　--coverage_len [int]  - Length of coverage between retrocopy and parent gene[50]  
-　--intron_loss_num [int] - Number of intron which loss in parent gene [2]  
-　--gap_len [int]       - Length of gap between regions to be merged [40]  
-　--parent_loss_intron_len [int] - Minimum length of the loss intron in parent gene to be as valid intron [60]  
-　--retro_one_exon_len [int] - Maximum length of the intron in retrocopy to be as valid intron [30]  
-　--kaksmethod {NG,LWL,LPB,MLWL,MLPB,GY,YN,MYN,MS,MA,GNG,GLWL,GLPB,GMLWL,GMLPB,GYN,GMYN} [{NG,LWL,LPB,MLWL,MLPB,GY,YN,MYN,MS,MA,GNG,GLWL,GLPB,GMLWL,GMLPB,GYN,GMYN} ...]  
-　　　　　　　　　　　　　- Methods for estimating Ka and Ks and theirs references(Default = MA)  
+<p>optional arguments:
+  <br>
+　-h, --help            show this help message and exit
+  <br>
+　--FASTA [FASTA]       - Path of FASTA
+  <br>
+　--alignment_tool {LAST,tblastn} [{LAST,tblastn} ...]
+  <br>
+  　　　　　　　　　　　　- Choose LAST or tblastn to align proteins with genome sequences. ['LAST']
+  <br>
+　--thread [int]        - Number of threads to be used [1]
+  <br>
+　--exonerate [EXONERATE] - Path of exonerate
+  <br>
+　--identity [int]      - Rate of identity between retrocopy and parent gene [50]
+  <br>
+　--coverage_rate [int] - Rate of coverage between retrocopy and parent gene [50]
+  <br>
+　--coverage_len [int]  - Length of coverage between retrocopy and parent gene[50]
+  <br>
+　--intron_loss_num [int] - Number of intron which loss in parent gene [2]
+  <br>
+　--gap_len [int]       - Length of gap between regions to be merged [40]
+  <br>
+　--parent_loss_intron_len [int] - Minimum length of the loss intron in parent gene to be as valid intron [60]
+  <br>
+　--retro_one_exon_len [int] - Maximum length of the intron in retrocopy to be as valid intron [30]
+  <br>
+　--kaksmethod {NG,LWL,LPB,MLWL,MLPB,GY,YN,MYN,MS,MA,GNG,GLWL,GLPB,GMLWL,GMLPB,GYN,GMYN} [{NG,LWL,LPB,MLWL,MLPB,GY,YN,MYN,MS,MA,GNG,GLWL,GLPB,GMLWL,GMLPB,GYN,GMYN} ...]
+  <br>
+　　　　　　　　　　　　　- Methods for estimating Ka and Ks and theirs references(Default = MA)
+  <br>
 　--version             show program's version number and exit
+  </p>
