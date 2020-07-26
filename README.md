@@ -42,11 +42,11 @@ The input of Retrofinder are only two files: genome sequences file (fasta) and c
   <br>
 　-h, --help　　　　　　　　　　　- show this help message and exit
   <br>
-　--FASTA [FASTA]　　　　　　　　-Path of FASTA
+　--FASTA [FASTA]　　　　　　　　&nbsp;-Path of FASTA
   <br>
 　--alignment_tool {LAST,tblastn} [{LAST,tblastn} ...]
   <br>
-　　　　　　　　　　　　　　　　- Choose LAST or tblastn to align proteins with genome sequences. ['LAST']
+　　　　　　　　　　　　　　　　&nbsp;- Choose LAST or tblastn to align proteins with genome sequences. ['LAST']
   <br>
 　--thread [int]　　　　　　　　　&nbsp;- Number of threads to be used [1]
   <br>
