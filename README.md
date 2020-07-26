@@ -52,7 +52,7 @@ The input of Retrofinder are only two files: genome sequences file (fasta) and c
   <br>
 　--exonerate [EXONERATE]　　　　- Path of exonerate
   <br>
-　--identity [int]　　　　　　　　- Rate of identity between retrocopy and parent gene [50]
+　--identity [int]　　　　　　　　　- Rate of identity between retrocopy and parent gene [50]
   <br>
 　--coverage_rate [int]　　　　　　- Rate of coverage between retrocopy and parent gene [50]
   <br>
