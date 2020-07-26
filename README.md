@@ -50,21 +50,21 @@ The input of Retrofinder are only two files: genome sequences file (fasta) and c
   <br>
 　--thread [int]　　　　　　　　　&nbsp;&nbsp;- Number of threads to be used [1]
   <br>
-　--exonerate [EXONERATE]　　　- Path of exonerate
+　--exonerate [EXONERATE]　　　　- Path of exonerate
   <br>
-　--identity [int]　　　　　　　- Rate of identity between retrocopy and parent gene [50]
+　--identity [int]　　　　　　　　- Rate of identity between retrocopy and parent gene [50]
   <br>
-　--coverage_rate [int]　　　　　- Rate of coverage between retrocopy and parent gene [50]
+　--coverage_rate [int]　　　　　　- Rate of coverage between retrocopy and parent gene [50]
   <br>
-　--coverage_len [int]　　　　　- Length of coverage between retrocopy and parent gene[50]
+　--coverage_len [int]　　　　　　- Length of coverage between retrocopy and parent gene[50]
   <br>
-　--intron_loss_num [int]　　　　- Number of intron which loss in parent gene [2]
+　--intron_loss_num [int]　　　　　- Number of intron which loss in parent gene [2]
   <br>
-　--gap_len [int]　　　　　　　　- Length of gap between regions to be merged [40]
+　--gap_len [int]　　　　　　　　　- Length of gap between regions to be merged [40]
   <br>
-　--parent_loss_intron_len [int]- Minimum length of the loss intron in parent gene to be as valid intron [60]
+　--parent_loss_intron_len [int]　- Minimum length of the loss intron in parent gene to be as valid intron [60]
   <br>
-　--retro_one_exon_len [int]　　- Maximum length of the intron in retrocopy to be as valid intron [30]
+　--retro_one_exon_len [int]　　　- Maximum length of the intron in retrocopy to be as valid intron [30]
   <br>
 　--kaksmethod {NG,LWL,LPB,MLWL,MLPB,GY,YN,MYN,MS,MA,GNG,GLWL,GLPB,GMLWL,GMLPB,GYN,GMYN} [{NG,LWL,LPB,MLWL,MLPB,GY,YN,MYN,MS,MA,GNG,GLWL,GLPB,GMLWL,GMLPB,GYN,GMYN} ...]
   <br>
