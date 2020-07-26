@@ -36,7 +36,7 @@ The input of Retrofinder are only two files: genome sequences file (fasta) and c
   <br>
 　Output_dir　　　　　　　　　　&nbsp;- Path to the directory where all intermediate and final results will be stored
   <br>
-　Tools_dir　　　　　　　　　　 - Path to the tools which are used</p>
+　Tools_dir　　　　　　　　　　 　- Path to the tools which are used</p>
 
 optional arguments:  
 　-h, --help            show this help message and exit  
