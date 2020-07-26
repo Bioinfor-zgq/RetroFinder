@@ -6,9 +6,19 @@ It uses the protein coding sequences as templates to align with the whole genome
 # Dependencies
 There is number of additional dependencies not provided by RetroFinder authors. Additional programs include:
 
-1. one
-2. two
-3. three
+1. AXTConvertor
+2. bedtools
+3. blast+
+4. clustalw2
+5. exonerate
+6. FASTA
+7. gffread
+8. HISAT2
+9. KaKs_Calculator
+10. LAST
+11. seqkit
+12. Shiny
+13. StringTie
 
 # Installation
 
