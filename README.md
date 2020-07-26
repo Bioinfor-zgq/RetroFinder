@@ -6,9 +6,9 @@ It uses the protein coding sequences as templates to align with the whole genome
 # Dependencies
 There is number of additional dependencies not provided by RetroFinder authors. Additional programs include:
 
-1.one
-2.two
-3.three
+1. one
+2. two
+3. three
 
 # Installation
 
