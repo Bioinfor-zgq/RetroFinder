@@ -37,17 +37,17 @@ The input of Retrofinder are only two files: genome sequences file (fasta) and c
 optional arguments:  
 　-h, --help            show this help message and exit  
 　--FASTA [FASTA]       - Path of FASTA  
-  --alignment_tool {LAST,tblastn} [{LAST,tblastn} ...]  
+　--alignment_tool {LAST,tblastn} [{LAST,tblastn} ...]  
   　　　　　　　　　　　　- Choose LAST or tblastn to align proteins with genome sequences. ['LAST']  
-  --thread [int]        - Number of threads to be used [1]  
-  --exonerate [EXONERATE] - Path of exonerate  
-  --identity [int]      - Rate of identity between retrocopy and parent gene [50]  
-  --coverage_rate [int] - Rate of coverage between retrocopy and parent gene [50]  
-  --coverage_len [int]  - Length of coverage between retrocopy and parent gene[50]  
-  --intron_loss_num [int] - Number of intron which loss in parent gene [2]  
-  --gap_len [int]       - Length of gap between regions to be merged [40]  
-  --parent_loss_intron_len [int] - Minimum length of the loss intron in parent gene to be as valid intron [60]  
-  --retro_one_exon_len [int] - Maximum length of the intron in retrocopy to be as valid intron [30]  
-  --kaksmethod {NG,LWL,LPB,MLWL,MLPB,GY,YN,MYN,MS,MA,GNG,GLWL,GLPB,GMLWL,GMLPB,GYN,GMYN} [{NG,LWL,LPB,MLWL,MLPB,GY,YN,MYN,MS,MA,GNG,GLWL,GLPB,GMLWL,GMLPB,GYN,GMYN} ...]  
+　--thread [int]        - Number of threads to be used [1]  
+　--exonerate [EXONERATE] - Path of exonerate  
+　--identity [int]      - Rate of identity between retrocopy and parent gene [50]  
+　--coverage_rate [int] - Rate of coverage between retrocopy and parent gene [50]  
+　--coverage_len [int]  - Length of coverage between retrocopy and parent gene[50]  
+　--intron_loss_num [int] - Number of intron which loss in parent gene [2]  
+　--gap_len [int]       - Length of gap between regions to be merged [40]  
+　--parent_loss_intron_len [int] - Minimum length of the loss intron in parent gene to be as valid intron [60]  
+　--retro_one_exon_len [int] - Maximum length of the intron in retrocopy to be as valid intron [30]  
+　--kaksmethod {NG,LWL,LPB,MLWL,MLPB,GY,YN,MYN,MS,MA,GNG,GLWL,GLPB,GMLWL,GMLPB,GYN,GMYN} [{NG,LWL,LPB,MLWL,MLPB,GY,YN,MYN,MS,MA,GNG,GLWL,GLPB,GMLWL,GMLPB,GYN,GMYN} ...]  
 　　　　　　　　　　　　　- Methods for estimating Ka and Ks and theirs references(Default = MA)  
-  --version             show program's version number and exit
+　--version             show program's version number and exit
