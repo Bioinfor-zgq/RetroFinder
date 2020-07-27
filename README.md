@@ -62,9 +62,9 @@ The input of Retrofinder are only two files: genome sequences file (fasta) and c
   <br>
 　--gap_len [int]　　　　　　　　　- Length of gap between regions to be merged [40]
   <br>
-　--parent_loss_intron_len [int]　　- Minimum length of the loss intron in parent gene to be as valid intron [60]
+　--parent_loss_intron_len [int]　　　- Minimum length of the loss intron in parent gene to be as valid intron [60]
   <br>
-　--retro_one_exon_len [int]　　　- Maximum length of the intron in retrocopy to be as valid intron [30]
+　--retro_one_exon_len [int]　　　　　- Maximum length of the intron in retrocopy to be as valid intron [30]
   <br>
 　--kaksmethod {NG,LWL,LPB,MLWL,MLPB,GY,YN,MYN,MS,MA,GNG,GLWL,GLPB,GMLWL,GMLPB,GYN,GMYN} [{NG,LWL,LPB,MLWL,MLPB,GY,YN,MYN,MS,MA,GNG,GLWL,GLPB,GMLWL,GMLPB,GYN,GMYN} ...]
   <br>
