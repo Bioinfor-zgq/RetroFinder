@@ -70,5 +70,5 @@ The input of Retrofinder are only two files: genome sequences file (fasta) and c
   <br>
 　　　　　　　　　　　　　　　　　- Methods for estimating Ka and Ks and theirs references(Default = MA)
   <br>
-　--version　　　　　　　　　　　- show program's version number and exit
+　--version　　　　　　　　　　　　- show program's version number and exit
   </p>
